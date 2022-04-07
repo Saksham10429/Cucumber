@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 glue= {"Definitation"}
 ,dryRun = false,
 tags= "@PossitiveTestCase",
-plugin= {"html:TestOutput/saksham.html"}
+plugin= {"html:TestOutput/saksham.html","json:TestOutput/saksham.json"}
 
 )
 public class TestRunner {
